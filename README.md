@@ -2,7 +2,8 @@
 
 ## General Description
 
-This smart doorbell project uses IoT technologies with an ESP32-CAM to detect when a person rings the doorbell, take a photo, and send it to a Telegram bot. Using `/lock` and `/unlock` commands, you can control the door's lock state through the Telegram bot.
+This smart doorbell project uses IoT technologies with an ESP32-CAM to detect when a person rings the doorbell, take a photo, and send it to a Telegram bot. Using `/lock` and `/unlock` commands, you can control the door's lock state through the Telegram bot.  Additionally, the project includes visualizations in ThingSpeak to display timestamps and the number of photos have been taken.
+
 
 ## Features
 
@@ -10,6 +11,7 @@ This smart doorbell project uses IoT technologies with an ESP32-CAM to detect wh
 - Takes a photo of the person.
 - Sends the photo to a Telegram bot.
 - Controls the door lock via Telegram commands (`/lock` to lock, `/unlock` to unlock).
+-  Visualizes timestamps and photo counts in ThingSpeak
 
 ## Hardware Requirements
 
@@ -27,6 +29,7 @@ This smart doorbell project uses IoT technologies with an ESP32-CAM to detect wh
 - [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 - ESP32 board support package installed in Arduino IDE
 - Libraries: `ESP32`, `WiFi`, `UniversalTelegramBot`
+- ThingSpeak account and channel setup
 
 ## Installation Instructions
 
