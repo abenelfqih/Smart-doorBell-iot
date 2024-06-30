@@ -15,7 +15,11 @@ This smart doorbell project uses IoT technologies with an ESP32-CAM to detect wh
 
 - ESP32-CAM module
 - Doorbell sensor (e.g., push button)
-- Relay or electric lock mechanism
+- solenoid lock
+- TIP122 NPN Transistor
+- diode 1N4007
+- BreadBoard DC Jack
+- Regulator 7805 5V
 - Internet connection
 
 ## Software Prerequisites
@@ -28,7 +32,7 @@ This smart doorbell project uses IoT technologies with an ESP32-CAM to detect wh
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/smart-doorbell-iot.git
+    git clone https://github.com/abenelfqih/smart-doorbell-iot.git
     cd smart-doorbell-iot
     ```
 2. Open the `smart_doorbell.ino` file in Arduino IDE.
