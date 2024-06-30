@@ -44,7 +44,7 @@ This smart doorbell project uses IoT technologies with an ESP32-CAM to detect wh
     - Go to `Sketch` > `Include Library` > `Manage Libraries`.
     - Search for and install `UniversalTelegramBot`, `WiFi`, and any other required libraries.
 
-4. Configure the WiFi and Telegram bot credentials in the `smart_doorbell.ino` file:
+4. Configure the WiFi and Telegram bot credentials in the `Esp32Cam_DoorBell.ino` file:
     ```cpp
     const char* ssid = "your-SSID";
     const char* password = "your-PASSWORD";
